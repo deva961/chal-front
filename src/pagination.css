@@ -1,0 +1,30 @@
+.paginationBtns {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 2.5rem;
+  min-width: 2.5rem;
+  font-weight: 500;
+  font-size: 1.075rem;
+  margin-top: 40px;
+}
+.paginationBtns > li > a {
+  /* margin: 0 0.5rem 0 0; */
+  padding: 10px 18px;
+  border-radius: 100%;
+}
+
+.paginationBtns > li > a:hover {
+  background-color: #eee;
+}
+
+.paginationDisabled {
+  opacity: 60%;
+  cursor: not-allowed;
+}
+
+.paginationActive > a,
+.paginationActive > a:hover {
+  background-color: blue !important;
+  color: #fff !important;
+}
